@@ -1,0 +1,41 @@
+/* search start */
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #bgi {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('/images/thum.jpg'); 
+  background-size:cover;
+  padding: 10px;
+}
+
+#bgi {
+  
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color and opacity as needed */
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropend:hover  .dropdown-menu {
+  display: block;
+  left: 100%;
+  nav-up: auto;
+} 
+
+
+.dropup:hover  .dropdown-menu {
+  display: block;
+  left: 100%;
+  nav-up: auto;
+} 
